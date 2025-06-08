@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/checkerboard-cross.png);
+}
+
+header {
+    background-color: rgb(120, 42, 42);
+    padding: 40px;
+    border-bottom: 3px solid tan;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    display: inline-block;
+    width: 25%;
+}
+
+nav {
+    display: inline-block;
+    width: 70%;
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+main {
+    background-color: white;
+    padding: 45px;
+    border-top: 3px solid tan;
+    margin: 40px 0;
+    width: 60%;
+    float: left;
+}
+
+main p {
+    margin: 15px 0;
+    line-height: 140%;
+}
+
+aside {
+    background-color: white;
+    padding: 20px;
+    padding-top: 45px;
+    border-top: 3px solid tan;
+    margin: 40px 0;
+    float: right;
+}
+
+aside ul {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+aside li {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: rgb(120, 42, 42);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 3px solid tan;
+    clear: both;
+}
+
+img {
+    float: right;
+    padding: 20px;
+}
+
+#About {
+    float: left;
+}
