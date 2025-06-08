@@ -15,19 +15,21 @@ header {
 }
 
 .container {
+    display: flex;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 h1 {
     color: white;
-    display: inline-block;
-    width: 25%;
+    display: flex;
+    flex: 2 1;
 }
 
 nav {
-    display: inline-block;
-    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 2;
     text-align: right;
 }
 
@@ -37,6 +39,7 @@ nav a {
     font-size: 24px;
     margin-left: 20px;
     text-decoration: none;
+    font-size: medium;
 }
 
 main {
@@ -45,7 +48,6 @@ main {
     border-top: 3px solid tan;
     margin: 40px 0;
     width: 60%;
-    float: left;
 }
 
 main p {
@@ -57,9 +59,9 @@ aside {
     background-color: white;
     padding: 20px;
     padding-top: 45px;
+    padding-right: 45px;
     border-top: 3px solid tan;
     margin: 40px 0;
-    float: right;
 }
 
 aside ul {
@@ -77,14 +79,11 @@ footer {
     padding: 20px 0;
     text-align: center;
     border-top: 3px solid tan;
-    clear: both;
 }
 
 img {
-    float: right;
-    padding: 20px;
-}
-
-#About {
     float: left;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
